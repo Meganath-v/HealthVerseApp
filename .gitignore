@@ -1,0 +1,38 @@
+# 🧰 Node dependencies
+node_modules/
+
+# ⚙️ Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# 📱 Native (Android/iOS)
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# 🚇 Metro
+.metro-health-check*
+
+# 🐞 Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# 🍎 macOS
+.DS_Store
+
+# 🔐 Certificates / Keys
+*.pem
+
+# 🔧 Environment variables
+.env*
+.env*.local
+
+# 📘 TypeScript
+*.tsbuildinfo
